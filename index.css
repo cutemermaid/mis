@@ -1,14 +1,27 @@
-html,body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
-.row{
-    
-    width: 100%;
+.row {
+  width: 100%;
 }
-.col-md-10 input{
-    width: 200px;
+.col-md-10 {
+  padding-top: 20px;
 }
-.list-group-item{
-cursor: pointer;
+.col-md-10 input {
+  width: 200px;
+}
+.list-group-item {
+  cursor: pointer;
+}
+
+.student-info {
+  display: none;
+  padding-top: 25px;
+}
+.table {
+  padding-top: 25px;
 }
